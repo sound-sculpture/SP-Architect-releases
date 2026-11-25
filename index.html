@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SP Architect — préparez vos beat sets pour SP-303, SP-404 OG, SX/A, MK2 et SP-555</title>
+<link rel="alternate" hreflang="en" href="en.html">
+<meta name="description" content="SP Architect prépare vos beat sets sur Mac et PC pour les cinq samplers Roland SP gérés (SP-303, SP-404 OG, SP-404 SX/A, SP-404 MK2, SP-555) : projet vide ou carte importée, import en lot, chop, BPM et tonalité, patterns et écrans MK2, export carte / ZIP / projet.">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.webp">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.webp">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SP Architect">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="SP Architect — beat sets for the iconic SP samplers">
+<meta property="og:description" content="SP Architect lets you prepare your beat sets for the five iconic Roland samplers (SP-303, SP-404 OG, SP-404 SX/A, SP-404 MK2 and SP-555). Start from a blank project, or open a card the machine already wrote: the app understands it, recovers the samples and settings, and lets you rearrange everything. On the SP-404 MK2 you can also plug the machine in over USB and work directly inside its projects, then write the card, a ZIP or a project file.">
+<meta property="og:url" content="https://sound-sculpture.github.io/SP-Architect-releases/">
+<meta property="og:image" content="https://sound-sculpture.github.io/SP-Architect-releases/img/og-en.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://sound-sculpture.github.io/SP-Architect-releases/img/og-en.webp">
+<link rel="stylesheet" href="style.css?v=6">
+<script>try{var t=localStorage.getItem('spa-site-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <span class="brand"><img class="brand-logo" src="img/logo-round.webp" alt="SP Architect" loading="lazy" decoding="async" width="1024" height="1024">SP ARCHITECT</span>
+    <span class="badge">BETA</span>
+    <span class="spacer"></span>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="top-nav" aria-label="Menu">☰</button>
+    <nav class="top-links" id="top-nav">
+      <a href="#machines">Machines</a>
+      <a href="#flux">Comment ça marche</a>
+      <a href="#plus">Fonctions</a>
+      <a href="#mk2">MK2</a>
+      <a href="#limites">Limites</a>
+      <a href="#telecharger">Télécharger</a>
+      <a href="#faq">FAQ</a>
+      <a href="mailto:lawkyz@gmail.com">Contact</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Thème">☀</button>
+    <span class="lang on">FR</span>
+    <a class="lang" href="en.html" hreflang="en" title="English version">EN</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <img class="logo" src="img/logo-round.webp" alt="Logo SP Architect" loading="lazy" decoding="async" width="1024" height="1024">
+    <p class="kicker">SP-303 · SP-404 OG · SP-404 SX/A · SP-404 MK2 · SP-555</p>
+    <h1>Cinq SP. Une seule app.</h1>
+    <p class="lead">
+      SP Architect vous permet de préparer vos beat sets pour les cinq samplers iconiques de Roland
+      (SP-303, SP-404 OG, SP-404 SX/A, SP-404 MK2 et SP-555). Partez d'un projet vide, ou ouvrez
+      une carte que la machine a déjà écrite : l'application la comprend, récupère les samples et
+      les réglages, et vous laisse tout réorganiser. Sur la SP-404 MK2, vous pouvez aussi brancher
+      la machine en USB et travailler directement dans ses projets, sans passer par la carte.
+      Ensuite, vous écrivez la carte, un ZIP ou un
+      fichier projet — <em>« une seule app pour les gouverner toutes »</em>, pour ces cinq-là en tout cas — et
+      vous allez jouer.
+    </p>
+    <div class="cta">
+      <a class="btn primary" href="#telecharger">Télécharger la bêta</a>
+      <a class="btn" href="#machines">Voir les machines</a>
+    </div>
+    <p class="tiny">Gratuit · aucune inscription · hors ligne.</p>
+  </section>
+
+<section id="machines">
+  <div class="wrap">
+    <p class="kicker">LES MACHINES</p>
+    <h2>Une carte par machine</h2>
+    <p class="lead">Choisissez votre SP au démarrage : l'interface et les réglages s'adaptent. Les SP-202, SP-606 et SP-808 ne sont pas gérés.</p>
+    <div class="grid g2">
+      <div class="card">
+        <h3>SP-303</h3>
+        <p>32 pads (8 par banque) sur SmartMedia. Carte réécrite en entier : pas de fusion ni de décalage.</p>
+        <a href="img/sp303-set.webp" target="_blank" rel="noopener"><img data-light="img/sp303-set.webp" data-dark="img/sp303-set-dark.webp" src="img/sp303-set.webp" alt="SP-303"></a>
+        <p class="tiny">Une carte d'origine, relue dans l'éditeur.</p>
+      </div>
+      <div class="card">
+        <h3>SP-404 OG</h3>
+        <p>96 pads (12 sur 8 banques) sur CompactFlash. Les réglages GATE / LOOP / REVERSE de la carte sont conservés.</p>
+        <a href="img/og-set.webp" target="_blank" rel="noopener"><img data-light="img/og-set.webp" data-dark="img/og-set-dark.webp" src="img/og-set.webp" alt="SP-404 OG"></a>
+        <p class="tiny">12 pads par banque, réglages par pad.</p>
+      </div>
+      <div class="card">
+        <h3>SP-404 SX / A</h3>
+        <p>120 pads (12 sur 10 banques) sur SD, un fichier audio par pad. Les patterns ne sont pas encore gérés.</p>
+        <a href="img/sxa-set.webp" target="_blank" rel="noopener"><img data-light="img/sxa-set.webp" data-dark="img/sxa-set-dark.webp" src="img/sxa-set.webp" alt="SP-404 SX / A"></a>
+        <p class="tiny">120 pads sur dix banques.</p>
+      </div>
+      <div class="card">
+        <h3>SP-404 MK2</h3>
+        <p>160 pads (16 sur 10 banques) sur SD, avec le lien USB, les patterns et les écrans. <a href="#mk2">Voir la section MK2</a>.</p>
+        <a href="img/mk2-set.webp" target="_blank" rel="noopener"><img data-light="img/mk2-set.webp" data-dark="img/mk2-set-dark.webp" src="img/mk2-set.webp" alt="SP-404 MK2"></a>
+        <p class="tiny">Projet live : tempo par pad, bus, groupes.</p>
+      </div>
+      <div class="card center-last">
+        <h3>SP-555</h3>
+        <p>128 slots (16 sur 8 banques) sur CompactFlash ; les pads déjà présents sont récupérés.</p>
+        <a href="img/sp555-set.webp" target="_blank" rel="noopener"><img data-light="img/sp555-set.webp" data-dark="img/sp555-set-dark.webp" src="img/sp555-set.webp" alt="SP-555"></a>
+        <p class="tiny">Une vraie carte, 95 pads sur 128.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="flux">
+  <div class="wrap">
+    <p class="kicker">COMMENT ÇA MARCHE</p>
+    <h2>Quatre étapes, toujours les mêmes</h2>
+
+    <div class="grid g2">
+      <div class="card">
+        <h3>1 · Partir de zéro, ou d'une carte</h3>
+        <p>Un set vide si vous voulez tout construire. Ou une carte (SD, CompactFlash, SmartMedia),
+        ou un dossier déjà copié sur le disque : l'application reconnaît la machine, relit les
+        samples et remet les pads dans l'ordre.</p>
+      </div>
+      <div class="card">
+        <h3>2 · Déposer, ranger</h3>
+        <p>Glissez vos fichiers — plusieurs à la fois si vous voulez : ils se répartissent sur les
+        pads libres, dans l'ordre. Ensuite, déplacez-les à la souris jusqu'à ce que le set vous
+        plaise.</p>
+      </div>
+      <div class="card">
+        <h3>3 · Régler, écouter</h3>
+        <p>Niveau, panoramique, pitch, boucle, filtre, enveloppe, tempo… tout est dans un panneau par
+        pad. Pré-écoute au clavier, et la jauge de carte vous dit s'il reste de la place.</p>
+      </div>
+      <div class="card">
+        <h3>4 · Écrire</h3>
+        <p>Sur la carte (prête à mettre dans la machine), en ZIP, ou en fichier projet. Rien n'est
+        écrit avant que vous ne cliquiez, et chaque écriture affiche sa progression.</p>
+      </div>
+    </div>
+
+    <figure class="demo" style="margin-top:28px">
+      <a href="img/demo.gif" target="_blank" rel="noopener"><img src="img/demo.gif" alt="Démonstration : set vide, quatre fichiers déposés, pads prêts" loading="lazy" decoding="async" width="820" height="596"></a>
+      <figcaption>Quinze secondes, sans coupe : set vide, quatre fichiers déposés, les pads sont prêts, Pad Options, puis Export.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="plus">
+  <div class="wrap">
+    <p class="kicker">LES DÉTAILS QUI CHANGENT LE TRAVAIL</p>
+    <h2>Pensé pour aller vite</h2>
+
+    <div class="grid g2">
+      <div class="card">
+        <h3>Plusieurs fichiers d'un coup</h3>
+        <p>Déposez 10, 20, 50 fichiers sur la grille : ils tombent sur les pads libres dans l'ordre,
+        sans les placer un par un.</p>
+      </div>
+      <div class="card">
+        <h3>Un pad vers le bureau ou le DAW</h3>
+        <p>Glissez un pad vers le Finder, le bureau, une piste d'Ableton ou tout autre DAW : vous
+        récupérez le WAV. Pratique pour réutiliser un sample ou le retravailler ailleurs.</p>
+      </div>
+      <div class="card">
+        <h3>Tempo et tonalité détectés</h3>
+        <p>Le BPM et la tonalité sont détectés à l'import et affichés sur chaque pad. MK2, SX/A, OG et 555 enregistrent ce tempo dans leur table de pads : il apparaît donc aussi sur la machine. La SP-303 n'a pas de champ tempo.</p>
+      </div>
+      <div class="card">
+        <h3>Jauge et garde-fous</h3>
+        <p>La jauge dit ce qui reste sur la carte et prévient si le set dépasse sa capacité (la
+        limite de 1 Go d'une CompactFlash de 404 OG, par exemple).</p>
+      </div>
+      <div class="card">
+        <h3>Clair ou sombre, FR / EN / ES</h3>
+        <p>Deux thèmes, trois langues. L'interface suit la machine : chaque module a sa couleur.</p>
+      </div>
+<div class="card">
+        <h3>Export</h3>
+        <p>Un seul bouton pour sortir le set : un ZIP prêt à copier, l'envoi direct à la machine par
+        USB (MK2), ou l'écriture sur la carte. Les patterns et les écrans de la cible sont conservés.</p>
+      </div>
+          <div class="card" id="analyse">
+        <h3>Votre carte reste lisible</h3>
+        <p>Quand la carte contient déjà des pads, l'application montre les deux côtés avant de toucher au moindre octet : pads utilisés, slots libres, conflits, fichiers invisibles pour la machine.</p>
+        <ul class="clean">
+          <li>Remplacer, fusionner, garder la carte, décaler ou intégrer ;</li>
+          <li>les fichiers que l'application ne reconnaît pas ne sont jamais supprimés ;</li>
+          <li>chaque écriture affiche sa progression et se vérifie.</li>
+        </ul>
+        <a href="img/05-analyse-carte.webp" target="_blank" rel="noopener"><img data-light="img/05-analyse-carte.webp" data-dark="img/05-analyse-carte-dark.webp" src="img/05-analyse-carte.webp" alt="Analyse d'une carte avant écriture"></a>
+        <p class="tiny">Analyse avant écriture, banque par banque.</p>
+      </div>
+      <div class="card">
+        <h3>Le guide est dans le menu</h3>
+        <p>Pas de PDF à retrouver : le guide de chaque machine s'ouvre depuis le menu ☰, avec la capacité de carte, l'arborescence attendue, chaque réglage de pad et la procédure d'import côté machine.</p>
+        <a href="img/06-guide.webp" target="_blank" rel="noopener"><img data-light="img/06-guide.webp" data-dark="img/06-guide-dark.webp" src="img/06-guide.webp" alt="Guide matériel intégré à l'application"></a>
+        <p class="tiny">Le guide de chaque machine, dans l'application.</p>
+      </div>
+</div>
+    </div>
+    <div class="card feature" style="margin-top:26px">
+      <h3>Le pad en entier</h3>
+      <p>Renommer, remplacer, déplacer un sample, couper, faire un fade, normaliser, trim : sans
+      quitter la fenêtre du pad. Et l'interface s'adapte à la machine : la MK2 montre tous ses
+      réglages, une SP-555 ou une SP-303 seulement les leurs.</p>
+      <div class="grid g2" style="margin-top:14px">
+        <figure><a href="img/pad-options.webp" target="_blank" rel="noopener"><img data-light="img/pad-options.webp" data-dark="img/pad-options-dark.webp" src="img/pad-options.webp" alt="Pad Options MK2" loading="lazy" decoding="async" width="1620" height="1590"></a><figcaption>MK2 : tout ce que la machine accepte pour ce pad.</figcaption></figure>
+        <figure><a href="img/pad-options-555.webp" target="_blank" rel="noopener"><img data-light="img/pad-options-555.webp" data-dark="img/pad-options-555-dark.webp" src="img/pad-options-555.webp" alt="Pad Options SP-555" loading="lazy" decoding="async" width="1620" height="1094"></a><figcaption>SP-555 : l'essentiel, sans encombrement.</figcaption></figure>
+      </div>
+    </div>
+
+    <figure class="map" style="margin:26px auto 0;max-width:560px">
+      <a href="img/map.webp" target="_blank" rel="noopener"><img data-light="img/map.webp" data-dark="img/map-dark.webp" src="img/map.webp" alt="Vue MAP : toutes les banques affichées d'un coup" loading="lazy" decoding="async" width="2200" height="1600"></a>
+      <figcaption><strong>MAP</strong> : toutes les banques d'un coup, pads remplis en clair, pads vides en grisé — pour voir le set entier sans changer de banque, sur toutes les machines.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="mk2">
+  <div class="wrap">
+    <p class="kicker">SP-404 MK2</p>
+    <h2>La MK2 va plus loin : USB, patterns, écrans</h2>
+
+    <figure style="margin-bottom:26px">
+      <a href="img/mk2-set.webp" target="_blank" rel="noopener"><img data-light="img/mk2-set.webp" data-dark="img/mk2-set-dark.webp" src="img/mk2-set.webp" alt="SP-404 MK2 : projet live, tempo par pad, bus et groupes" loading="lazy" decoding="async" width="2212" height="1670"></a>
+      <figcaption>SP-404 MK2 : 160 pads (16 sur 10 banques), tempo par pad, bus, groupes de mute et de link.</figcaption>
+    </figure>
+
+    <div class="grid g2">
+      <div class="card">
+        <h3>Local</h3>
+        <p>L'application travaille seule : rien n'est envoyé à la machine pendant que vous éditez.
+        Et tout reste exportable ensuite — ZIP, projet, ou écriture directe sur la carte SD.</p>
+      </div>
+      <div class="card">
+        <h3>Live</h3>
+        <p>L'application travaille directement dans le projet de la MK2, branchée en USB : vous
+        lisez ce qui est sur la machine, vous modifiez, et chaque réglage part dans son projet.</p>
+      </div>
+      <div class="card">
+        <h3>Stockage interne</h3>
+        <p>Parcourir le stockage interne et la carte SD, ouvrir un dossier, renommer un projet,
+        déplacer un fichier, ou charger un projet dans le set — sans quitter l'application.</p>
+        <a href="img/mk2-storage.webp" target="_blank" rel="noopener"><img data-light="img/mk2-storage.webp" data-dark="img/mk2-storage-dark.webp" src="img/mk2-storage.webp" alt="Fenêtre de stockage USB : les 16 projets de la MK2" loading="lazy" decoding="async" width="2212" height="1670"></a>
+      </div>
+      <div class="card">
+        <h3>Patterns</h3>
+        <p>Lire les patterns du projet, les modifier sur une grille, les réécrire dans la machine.
+        Export MIDI, <strong>Bounce</strong> vers un pad et <strong>MULTIPAD</strong> vers une
+        banque, avec pitch, sync, volume et panoramique.</p>
+        <a href="img/mk2-patterns.webp" target="_blank" rel="noopener"><img data-light="img/mk2-patterns.webp" data-dark="img/mk2-patterns-dark.webp" src="img/mk2-patterns.webp" alt="Éditeur de patterns MK2" loading="lazy" decoding="async" width="2212" height="1670"></a>
+      </div>
+<div class="card">
+        <h3>Chop</h3>
+        <a href="img/chop.webp" target="_blank" rel="noopener"><img data-light="img/chop.webp" data-dark="img/chop-dark.webp" src="img/chop.webp" alt="Fenêtre Edit Chop : huit tranches et leurs pads de destination" loading="lazy" decoding="async" width="1556" height="1251"></a>
+        <p>Coupez un sample en 2, 4, 8 tranches — à intervalles réguliers, sur les niveaux ou sur les
+        transitoires. Écoutez chaque tranche au clavier, puis créez les pads d'un coup, sur les slots
+        libres ou ceux que vous choisissez.</p>
+      </div>
+      <div class="card">
+        <h3>Écrans</h3>
+        <p>L'animation de démarrage et l'économiseur : six images, dessinées au pixel ou importées
+        depuis une photo (avec recadrage). Aperçu de l'animation, bibliothèque de sets à appliquer
+        à plusieurs projets, export PNG.</p>
+        <a href="img/mk2-screens.webp" target="_blank" rel="noopener"><img data-light="img/mk2-screens.webp" data-dark="img/mk2-screens-dark.webp" src="img/mk2-screens.webp" alt="Éditeur d'écrans MK2" loading="lazy" decoding="async" width="2212" height="1670"></a>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<section id="limites">
+  <div class="wrap">
+    <p class="kicker">LIMITES CONNUES</p>
+    <h2>Ce qui marche, ce qui reste à confirmer</h2>
+    <div class="note warn" style="margin-bottom:20px">
+      <p><strong>Sauvegardez toujours le contenu d'une carte avant un premier test.</strong>
+      L'application ne supprime jamais les fichiers qu'elle ne reconnaît pas, mais une écriture reste une écriture.</p>
+    </div>
+    <ul class="clean">
+      <li><strong>Bêta.</strong> SP-303, SP-404 OG, SP-555 et MK2 (USB) ont été testées sur machine. Restent à confirmer : l'écriture sur carte SD pour la MK2 et la SX/A, et les très grosses cartes.</li>
+      <li><strong>SP-404 SX/A :</strong> samples et réglages gérés, patterns pas encore.</li>
+      <li><strong>iPad :</strong> éditeur / librarian seulement, sans lien USB.</li>
+      <li><strong>Windows :</strong> lien USB MK2 disponible via le pont série, comme sur macOS ; l'exécutable n'est pas signé.</li>
+      <li><strong>Conversion :</strong> préparer un long sample prend du temps (calcul, pas copie). La fenêtre affiche le temps restant.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="telecharger">
+  <div class="wrap">
+    <p class="kicker">TÉLÉCHARGER</p>
+    <h2>Version 1.0.0-bêta.4</h2>
+    <p class="tiny" style="margin:-4px 0 14px">Build <code>BFNwb7I6</code> · 25 novembre 2026 · <a href="https://github.com/sound-sculpture/SP-Architect-releases/releases/latest">toutes les versions</a></p>
+    <p class="lead">Les fichiers sont sur GitHub Releases. macOS est signé et notarisé ; Windows est un ZIP portable.</p>
+    <p class="tiny">macOS 11 ou plus récent (Apple Silicon et Intel) · Windows 10 / 11, 64 bits · iPad : TestFlight</p>
+    <p class="small">Aussi en PDF, pour lire ou partager hors ligne :
+      <a href="SP-Architect-beta4-FR.pdf">version française</a> ·
+      <a href="SP-Architect-beta4-EN.pdf">English version</a>.</p>
+
+    <table>
+      <thead>
+        <tr><th>Plateforme</th><th>Fichier</th><th>SHA-256</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>macOS</strong><br><span class="tiny">11 ou plus récent<br>Apple Silicon et Intel<br><strong>notarisé</strong></span></td>
+          <td class="mono"><a href="https://github.com/sound-sculpture/SP-Architect-releases/releases/download/v1.0.0-beta.4/SP-Architect-macOS-universal.dmg">SP-Architect-macOS-universal.dmg</a><br><span class="tiny">216 Mo · DMG</span></td>
+          <td class="hash">b2222847b9b52ac7dde3918a9658dc11fce84f61905f1bf6986f745ce2062876</td>
+        </tr>
+        <tr>
+          <td><strong>Windows</strong><br><span class="tiny">10 / 11, 64 bits<br>portable, sans installateur</span></td>
+          <td class="mono"><a href="https://github.com/sound-sculpture/SP-Architect-releases/releases/download/v1.0.0-beta.4/SP-Architect-Windows-x64-portable.zip">SP-Architect-Windows-x64-portable.zip</a><br><span class="tiny">132 Mo · ZIP</span></td>
+          <td class="hash">1b9bc0815f4be1e2e9ba8bf5d98fb0a0fc9dd7a2de8a9a97c927a01706650e48</td>
+        </tr>
+        <tr>
+          <td><strong>iPad</strong><br><span class="tiny">éditeur / librarian<br>pas de lien USB</span></td>
+          <td class="mono">Bientôt disponible (TestFlight)</td>
+          <td class="hash">—</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="grid g2" style="margin-top:24px">
+      <div class="note">
+        <p><strong>macOS — premier lancement.</strong> Le DMG est signé et notarisé : glissez
+        l'application dans <em>Applications</em> et lancez-la, aucun avertissement ne s'affiche.</p>
+      </div>
+      <div class="note">
+        <p><strong>Windows — premier lancement.</strong> Windows peut afficher « Windows a protégé
+        votre PC » : <strong>Informations complémentaires</strong> → <strong>Exécuter quand même</strong>.</p>
+      </div>
+    </div>
+
+    <p class="small" style="margin-top:18px">
+      Vérifier un fichier téléchargé : <code>shasum -a 256 fichier.dmg</code> sur macOS,
+      <code>Get-FileHash fichier.zip -Algorithm SHA256</code> sous Windows.
+    </p>
+  </div>
+</section>
+
+<section id="licence">
+  <div class="wrap">
+    <p class="kicker">LICENCE ET SOUTIEN</p>
+    <h2>Gratuit, mais pas libre de droits</h2>
+    <div class="grid g2">
+      <div class="card">
+        <h3>Propriétaire · gratuit</h3>
+        <p>
+          SP Architect est <strong>gratuit à l'usage</strong>. Le code source n'est pas publié :
+          la redistribution, la revente, la décompilation ou la réutilisation du code demandent un
+          accord écrit. <a href="https://github.com/sound-sculpture/SP-Architect-releases/blob/main/LICENSE.md">Licence complète</a>.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Soutien</h3>
+        <p>
+          Le projet est développé par une seule personne, sur son temps libre. Si l'outil vous fait
+          gagner du temps, un don est possible — et un rapport de bug vaut de l'or.
+        </p>
+        <p style="margin-top:12px">
+          <a class="btn primary" href="https://www.paypal.com/paypalme/lawkyz" rel="noopener">Faire un don</a>
+          <a class="btn" href="https://github.com/sound-sculpture/SP-Architect-releases/issues">Rapporter un bug</a>
+        </p>
+      </div>
+    </div>
+    <p class="tiny" style="margin-top:18px">
+      Roland et Boss sont des marques de leurs propriétaires respectifs. SP Architect n'est ni affilié
+      ni approuvé par Roland ou Boss.
+    </p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <p class="kicker">QUESTIONS FRÉQUENTES</p>
+    <h2>Les réponses courtes</h2>
+    <div class="faq">
+      <details>
+        <summary>Windows affiche un avertissement</summary>
+        <p>C'est normal : l'application n'a pas de certificat éditeur. Cliquez sur
+        <strong>Informations complémentaires</strong> → <strong>Exécuter quand même</strong>.</p>
+      </details>
+      <details>
+        <summary>Faut-il sauvegarder sa carte ?</summary>
+        <p>Oui, toujours, avant un premier test. L'application ne supprime jamais ce qu'elle ne
+        reconnaît pas, mais une écriture reste une écriture.</p>
+      </details>
+      <details>
+        <summary>Local ou live ?</summary>
+        <p><strong>Local</strong> : l'app travaille seule, puis vous exportez (carte, ZIP, projet).<br>
+        <strong>Live</strong> : elle travaille directement dans le projet de la MK2, branchée en USB.</p>
+      </details>
+      <details>
+        <summary>Où est le code source ?</summary>
+        <p>Il n'est pas publié. L'application est gratuite à l'usage, en binaire ;
+        la redistribution ou la réutilisation du code demandent un accord écrit.</p>
+      </details>
+      <details>
+        <summary>L'iPad peut-il piloter la MK2 ?</summary>
+        <p>Non : iPadOS ne donne pas accès au port série. L'iPad sert d'éditeur et de librarian,
+        sans lien USB.</p>
+      </details>
+      <details>
+        <summary>Ça marche sans internet ?</summary>
+        <p>Oui, entièrement. Aucun compte, aucun serveur, aucune mesure d'audience.</p>
+      </details>
+      <details>
+        <summary>La MK2 n'est pas détectée</summary>
+        <p>Ferme les autres instances de SP Architect : une seule peut tenir le port USB
+        (<code>/dev/cu.usbmodem…</code>). Vérifie aussi le câble et que la machine est allumée.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>SP Architect · 1.0.0-bêta.4 · build BFNwb7I6 · 25 novembre 2026 · © Sébastien Charpiot</p>
+    <p class="tiny">Page statique, sans cookie, sans mesure d’audience, sans requête externe.<br>Contact : <a href="mailto:lawkyz@gmail.com">lawkyz@gmail.com</a></p>
+  </div>
+</footer>
+
+
+<script>
+(function () {
+  var t = document.querySelector('.nav-toggle');
+  var n = document.getElementById('top-nav');
+  if (!t || !n) return;
+  t.addEventListener('click', function () {
+    var open = n.classList.toggle('open');
+    t.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  n.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') {
+      n.classList.remove('open');
+      t.setAttribute('aria-expanded', 'false');
+    }
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var box = document.createElement('div');
+  box.className = 'lightbox';
+  box.setAttribute('role', 'dialog');
+  box.setAttribute('aria-modal', 'true');
+  box.setAttribute('aria-label', 'Image');
+  box.innerHTML = '<button class="lightbox-close" aria-label="Fermer">×</button><img alt="">';
+  document.body.appendChild(box);
+  var img = box.querySelector('img');
+  var closeBtn = box.querySelector('.lightbox-close');
+  var lastFocus = null;
+
+  function close() {
+    box.classList.remove('open');
+    document.body.classList.remove('lb-open');
+    img.removeAttribute('src');
+    if (lastFocus) lastFocus.focus();
+  }
+  function open(href, alt) {
+    lastFocus = document.activeElement;
+    img.src = href;
+    img.alt = alt || '';
+    box.classList.add('open');
+    document.body.classList.add('lb-open');
+    closeBtn.focus();
+  }
+
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a[href^="img/"]') : null;
+    if (!a) return;
+    // only plain left clicks
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+    e.preventDefault();
+    var inner = a.querySelector('img');
+    open(a.getAttribute('href'), inner ? inner.alt : '');
+  });
+
+  box.addEventListener('click', function (e) {
+    if (e.target === box) close();
+  });
+  closeBtn.addEventListener('click', close);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && box.classList.contains('open')) close();
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var saved = null;
+  try { saved = localStorage.getItem('spa-site-theme'); } catch (e) {}
+  if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
+  var btn = document.querySelector('.theme-toggle');
+  if (!btn) return;
+  function applyImages() {
+    var dark = root.getAttribute('data-theme') !== 'light';
+    var list = document.querySelectorAll('img[data-dark]');
+    for (var i = 0; i < list.length; i++) {
+      var el = list[i];
+      var want = dark ? el.getAttribute('data-dark') : el.getAttribute('data-light');
+      if (!el.dataset.fallback) {
+        el.dataset.fallback = '1';
+        el.addEventListener('error', function () {
+          var l = this.getAttribute('data-light');
+          if (l && this.getAttribute('src') !== l) this.setAttribute('src', l);
+        });
+      }
+      if (el.getAttribute('src') !== want) el.setAttribute('src', want);
+    }
+  }
+  function sync() {
+    applyImages();
+    var dark = root.getAttribute('data-theme') !== 'light';
+    btn.textContent = dark ? '☀' : '☾';
+    btn.setAttribute('aria-label', dark ? 'Passer en mode clair' : 'Passer en mode sombre');
+    btn.setAttribute('title', btn.getAttribute('aria-label'));
+    btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+  }
+  btn.addEventListener('click', function () {
+    var dark = root.getAttribute('data-theme') !== 'light';
+    var next = dark ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('spa-site-theme', next); } catch (e) {}
+    sync();
+  });
+  sync();
+})();
+</script>
+</body>
+</html>
