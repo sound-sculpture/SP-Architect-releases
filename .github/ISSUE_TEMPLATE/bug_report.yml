@@ -1,0 +1,106 @@
+name: Bug report
+description: Something went wrong in SP Architect — card reading, export, audio, MK2 link…
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. **Back up your card first**: never attach a card you use live.
+
+  - type: input
+    id: version
+    attributes:
+      label: Version and build
+      description: Shown in À propos / About (e.g. 1.0.0-beta.2, build cjMWZt_F)
+      placeholder: 1.0.0-beta.2 · cjMWZt_F
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Windows 10/11
+        - iPad
+    validations:
+      required: true
+
+  - type: dropdown
+    id: machine
+    attributes:
+      label: Sampler
+      options:
+        - SP-303
+        - SP-404 OG
+        - SP-404 SX / A
+        - SP-404MK2
+        - SP-555
+        - No machine (clean export / project only)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: card
+    attributes:
+      label: Card / media
+      options:
+        - No card (project or ZIP only)
+        - SD card (SX/A or MK2)
+        - CompactFlash (OG or 555)
+        - SmartMedia (303)
+        - Copy of a card on disk
+    validations:
+      required: true
+
+  - type: input
+    id: cardinfo
+    attributes:
+      label: Card size and format
+      placeholder: 1 GB CF, formatted on the SP-404 OG
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered, starting from launching the app.
+      placeholder: |
+        1. Open the app, choose SP-404 OG
+        2. Open the card
+        3. …
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: Exact message, toast, or crash. Also say whether anything was written to the card.
+    validations:
+      required: true
+
+  - type: input
+    id: mode
+    attributes:
+      label: LOCAL or LIVE (MK2 only)
+      placeholder: LOCAL
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Before posting
+      options:
+        - label: I backed up the card before testing.
+          required: true
+        - label: I quit every other SP Architect instance (only one can hold the USB port).
+          required: false
